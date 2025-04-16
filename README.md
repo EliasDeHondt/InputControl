@@ -5,7 +5,8 @@
 
 1. [📘Table of Contents](#📘table-of-contents)
 2. [🖖Introduction](#🖖introduction)
-3. [🔗Links](#🔗links)
+3. [🗃️Setup Environment](#🗃️setup-environment)
+4. [🔗Links](#🔗links)
 
 ---
 
@@ -18,6 +19,22 @@ Please also see following documents:
 - [SECURITY](SECURITY.md)
 - [CONTRIBUTING](CONTRIBUTING.md)
 - [CODE OF CONDUCT](CODE-OF-CONDUCT.md)
+
+
+## 🗃️Setup Environment
+```bash
+git clone https://github.com/EliasDeHondt/InputControl.git
+
+cd InputControl
+
+python -m venv venv
+
+venv/Scripts/activate
+
+pip install -r requirements.txt
+
+python src/main.py
+```
 
 ## 🔗Links
 - 👯 Web hosting company [EliasDH.com](https://eliasdh.com).
