@@ -35,6 +35,3 @@ pip install -r requirements.txt
 
 python src/main.py
 ```
-
-## 🔗Links
-- 👯 Web hosting company [EliasDH.com](https://eliasdh.com).
